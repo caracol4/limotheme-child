@@ -10,3 +10,42 @@
 
 /* Nota para la IA: No modificar el HTML, solo añadir estilos 
    que hereden de las clases del tema padre 'limoservice'. */
+
+/* ========================================
+   CONVERSIÓN A FULL WIDTH - HOME PAGE
+   ======================================== */
+
+/* Contenedor principal del sitio - Expandir a 100% */
+.sitewrap {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Contenedor del showcase/slider - Expandir a 100% */
+.showcasewrap {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Contenedor de contenido del showcase - Expandir a 100% */
+.showcase-content-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Contenido individual del showcase - Expandir a 100% */
+.showcase-content {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Asegurar que el body no limite el ancho */
+body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden; /* Prevenir scroll horizontal */
+}
+
+/* ========================================
+   FIN CONVERSIÓN A FULL WIDTH
+   ======================================== */
