@@ -15,10 +15,3 @@ function limo_child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'limo_child_enqueue_styles', 20 ); // El '20' da prioridad al hijo
 
-// Desactiva la visualización de errores en pantalla
-define( 'WP_DEBUG', false );
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'WP_DEBUG_LOG', true );
-@ini_set( 'display_errors', 0 );
-
-/* Eso es todo, ¡deja de editar! Feliz blogueo. */
